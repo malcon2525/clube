@@ -1,0 +1,123 @@
+/* fonte roboto, google */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+.fundo_azul {
+    background-color: #3D405B;
+}
+.texto_branco{
+    color:#fff !important;
+}
+
+
+/* fundo da div MENU TOPO - ajustando a cor do botão sanduiche */
+.navbar-toggler{
+    border: 2px solid #ffffffc9!important;
+}
+.navbar-toggler-icon, .navbar-toggler {
+    background-color: #ffffffc9;
+    color: #ffffffc9!important;   
+}
+
+/* fundo da div WELCOME */
+/* wave button */
+.custom-shape-divider-bottom-1733163493 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1733163493 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1733163493 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* wave top */
+.custom-shape-divider-top-1733165555 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1733165555 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-top-1733165555 .shape-fill {
+    fill: #3D405B;
+}
+    /*tem que colocar tudo dentro de um position relative*/
+    .principal {
+        position: relative;
+        min-height: 60vh;
+        //background-image: url('../images/clube.jpg');
+        background-size: cover; /* Faz a imagem cobrir toda a área da div */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        width: 100%; /* Define a largura da div */
+        box-sizing: border-box;
+    }
+    @media screen and (max-width: 768px) {
+        .principal {
+            min-height: 30vh;
+        }
+    }
+
+
+
+    /* CONTEUDO DA DIV WELCOME */
+    .mess_pp h1 {
+        margin: 0; /* Remove a margem padrão */
+        padding: 0; /* Remove o padding, caso necessário */
+        color: #fff;
+        font-weight: bold;
+        line-height: 54px;
+        display: block;
+        text-align: center;
+    }
+    .mess_pp p {
+        color: #ffffffaf;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .mess_pp{
+        margin-left: 100px;
+        background-color: #3d405b3f;
+        border-radius: 5px;
+    }
+    .home_video{
+        margin-right: 100px;
+    }
+    @media screen and (max-width: 768px) {
+        /* Esconde a classe .home_video em dispositivos móveis */
+        .home_video {
+            display: none;
+
+        }
+        /* Centraliza a classe .mess_pp em dispositivos móveis */
+        .mess_pp {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 100%;  /* Você pode ajustar a largura se necessário */
+        }
+    }
