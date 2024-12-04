@@ -31,7 +31,7 @@
         </div>
 
         <div class="home_video">
-            sadfsd
+            <iframe  src="https://www.youtube.com/embed/EYWEprqoLAQ?si=wE9mUrusUCbyiUug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
     </div>
@@ -47,5 +47,33 @@
 
 
 </div>
+
+
+
+{{--
+*
+* MANCHETE
+* 
+--}}
+<div class="manchete container">
+
+    <h2>Sobre o ldslsdl</h2>
+
+    <div>
+        <div>
+            <h2>Nossa História</h2>
+            Since 1984, Tiya is ranked #8 in the top 10 golf courses in the world. Tiya is Bootstrap 5 HTML CSS template for golf clubs. Anyone can modify and use this layout for commercial purposes.
+
+            Tiya Golf Club is 100% free CSS template provided by TemplateMo website. Please tell your friends about our website. Thank you for visiting.
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+       
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam libero, at nisi voluptates saepe quisquam dolores vero iste sunt. Quo at commodi iste eos nobis nihil eius, fuga doloribus.</p>
+</div>
+
 
 @endsection

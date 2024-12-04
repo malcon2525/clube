@@ -37,7 +37,7 @@
     position: relative;
     display: block;
     width: calc(127% + 1.3px);
-    height: 150px;
+    height: 100px;
 }
 
 .custom-shape-divider-bottom-1733163493 .shape-fill {
@@ -58,7 +58,7 @@
     position: relative;
     display: block;
     width: calc(124% + 1.3px);
-    height: 115px;
+    height: 100px;
 }
 
 .custom-shape-divider-top-1733165555 .shape-fill {
@@ -68,7 +68,7 @@
     .principal {
         position: relative;
         min-height: 60vh;
-        //background-image: url('../images/clube.jpg');
+        background-image: url('../images/clube.jpg');
         background-size: cover; /* Faz a imagem cobrir toda a área da div */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -103,11 +103,27 @@
         margin-left: 100px;
         background-color: #3d405b3f;
         border-radius: 5px;
+        height: 100px;
+        align-self: center;
     }
     .home_video{
         margin-right: 100px;
     }
-    @media screen and (max-width: 768px) {
+
+    .home_video iframe {
+        border-radius: 15px; /* Ajuste o valor para o arredondamento desejado */
+        overflow: hidden; /* Garante que o conteúdo respeite a borda */
+        width: 560px;
+        height: 315px;
+    }
+    @media screen and (max-width: 1200px) {
+        .home_video iframe {
+            width: 390px;
+            height:220px;
+        }
+    }
+
+    @media screen and (max-width: 940px) {
         /* Esconde a classe .home_video em dispositivos móveis */
         .home_video {
             display: none;
